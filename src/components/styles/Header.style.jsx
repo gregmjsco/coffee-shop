@@ -12,6 +12,24 @@ export const StyledHeader = styled.header `
 `
 
 export const Nav = styled.nav`
+display: flex;
+justify-content: space-between;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2em;
+} 
+
+   li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 2em;
+   }
     
 `
 
