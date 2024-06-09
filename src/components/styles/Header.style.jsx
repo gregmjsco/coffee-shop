@@ -10,3 +10,11 @@ export const StyledHeader = styled.header `
     position: relative;
     z-index: 9999;
 `
+
+export const Nav = styled.nav`
+    
+`
+
+export const Logo = styled.img`
+    
+`
