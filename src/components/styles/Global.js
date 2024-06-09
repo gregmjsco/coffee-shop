@@ -1,4 +1,7 @@
-:root {
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyles = createGlobalStyle`
+    :root {
   --clr-dark: #070a13;
   --clr-light: #f1f5f9;
   --clr-slate400: #94a3b8;
@@ -77,3 +80,5 @@ a {
 strong {
   color: var(--clr-indigo);
 }
+`
+export default GlobalStyles
