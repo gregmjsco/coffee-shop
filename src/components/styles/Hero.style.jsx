@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-export const Hero = styled.section`
-    
+export const StyledHero = styled.section`
+    flex: 1;
 `
 
-export const Image = styled.img`
+export const StyledImage = styled.img`
     width: 100%;
-    margin-left: 20px;
+    flex: 1;
 `
