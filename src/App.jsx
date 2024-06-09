@@ -1,6 +1,5 @@
-import Container from './components/styles/Container.style'
 import Header  from './components/Header.jsx'
-import StyledButton from './components/styles/Button/Button'
+import Hero from './components/Hero.jsx'
 import GlobalStyles from './components/styles/Global'
 
 function App() {
@@ -9,13 +8,9 @@ function App() {
     <>
       <GlobalStyles></GlobalStyles>
       <Header />
-      <Container>
+      <Hero />
 
-      <h1>TEST</h1>
-      <button>Button</button>
-      <StyledButton>Styled Button</StyledButton>
 
-      </Container>
     </>
   )
 }
