@@ -44,7 +44,7 @@ const Navbar = () => {
         <Logo src="logo.png" alt="Logo" />
         <Sections>
           <SectionLink href="#">About Us</SectionLink>
-          <SectionLink href="#">Menu</SectionLink>
+          <SectionLink href="#">Shop</SectionLink>
           <SectionLink href="#">Location</SectionLink>
         </Sections>
       </LeftSide>
