@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Router>
-
+        <Route></Route>
         <GlobalStyles></GlobalStyles>
         <Header />
         <Hero />
