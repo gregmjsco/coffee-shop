@@ -1,18 +1,28 @@
-import Header  from './components/Header.jsx'
-import Hero from './components/Hero.jsx'
+
+import Home from './components/Home';
 import GlobalStyles from './components/styles/Global'
 
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import Navbar from './components/styles/Navbar';
+import Shop from './components/Shop';
 
 function App() {
 
   return (
     <>
+    <GlobalStyles></GlobalStyles>
       <Router>
-        <Route></Route>
-        <GlobalStyles></GlobalStyles>
-        <Header />
-        <Hero />
+        <Navbar></Navbar>
+        <Switch>
+          <Route exact path = '/'>
+            <Home></Home>
+          </Route>
+          <Route path = '/shop'>
+            <Shop></Shop>
+          </Route>
+        </Switch>
+
+        <Home></Home>
 
       </Router>
 

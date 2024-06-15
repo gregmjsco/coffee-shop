@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { StyledButton } from './Button/Button.style';
+import { Link } from 'react-router-dom'
 
 const NavbarContainer = styled.div`
   display: flex;
@@ -25,7 +26,7 @@ const Sections = styled.div`
   display: flex;
 `;
 
-const SectionLink = styled.a`
+const SectionLink = styled(Link)`
   color: #fff;
   text-decoration: none;
   margin-right: 20px;
@@ -43,9 +44,8 @@ const Navbar = () => {
       <LeftSide>
         <Logo src="logo.png" alt="Logo" />
         <Sections>
-          <SectionLink href="#">About Us</SectionLink>
-          <SectionLink href="#">Shop</SectionLink>
-          <SectionLink href="#">Location</SectionLink>
+          <SectionLink to="/">Home</SectionLink>
+          <SectionLink to="/shop">Shop</SectionLink>
         </Sections>
       </LeftSide>
       <RightSide>

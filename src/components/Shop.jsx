@@ -7,6 +7,7 @@ function Shop() {
     return(
         <>
             <Container>
+                <h1>Shop Page</h1>
                 <Navbar></Navbar>
                 <ProductsGrid></ProductsGrid>
             </Container>
