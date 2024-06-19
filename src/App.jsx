@@ -9,16 +9,16 @@ import Shop from './components/Shop';
 function App() {
 
   return (
-    <>
+    <Router>
     <GlobalStyles></GlobalStyles>
     <Navbar></Navbar>
       <Routes>
-          <Route exact path = '/' element={<Home />}></Route>
+          <Route path = '/' element={<Home />}></Route>
           <Route path = '/shop' element={<Shop />}></Route>
       </Routes>
 
 
-    </>
+    </Router>
   )
 }
 
