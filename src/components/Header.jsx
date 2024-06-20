@@ -7,7 +7,6 @@ function Header() {
         <>
             <StyledHeader>
                 <Container>
-                    <Navbar></Navbar>
                 </Container>
 
            
