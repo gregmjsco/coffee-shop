@@ -1,10 +1,14 @@
+import styled from "styled-components"
 
+const Wrapper = styled.div `
+    display: flex;
+`
 
 function ProductsGrid() {
     return (
-        <>
-            <h1>Test</h1>
-        </>
+        <Wrapper>
+            
+        </Wrapper>
     )
 }
 

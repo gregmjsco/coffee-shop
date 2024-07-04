@@ -5,6 +5,7 @@ import styled from 'styled-components';
 // Define styled components for the card
 const CardContainer = styled.div`
   width: 300px;
+  height: 600px;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 16px;
