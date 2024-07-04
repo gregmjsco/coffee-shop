@@ -6,7 +6,7 @@ export default function FetchGetRequest() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('https://fake-coffee-api.vercel.app/api?limit=2', { mode: 'cors' });
+                const res = await fetch('https://fake-coffee-api.vercel.app/api?limit=10', { mode: 'cors' });
                 const coffeeData = await res.json(); // await the JSON parsing
                 setData(coffeeData); // set the state with the parsed data
             } catch (error) {
