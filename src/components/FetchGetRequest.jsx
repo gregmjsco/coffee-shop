@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import DrinkList from './DrinkList';
+
 
 export default function FetchGetRequest() {
     const [data, setData] = useState(null);
@@ -20,15 +22,7 @@ export default function FetchGetRequest() {
     return (
         <>
             <h1>Coffee Data</h1>
-            {data ? (
-                <ul>
-                    {data.map((item) => (
-                        <li key={item.id}>{item.name}</li> 
-                    ))}
-                </ul>
-            ) : (
-                <p>Loading...</p>
-            )}
+            {data ? <DrinkList drinks={data} /> : <p>Loading...</p>}
         </>
     );
 }

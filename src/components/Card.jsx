@@ -29,7 +29,6 @@ const Card = ({ drink }) => {
       <DrinkName>{drink.name}</DrinkName>
       <Description>{drink.description}</Description>
       <p>Price: ${drink.price.toFixed(2)}</p>
-      <p>Available: {drink.available ? 'Yes' : 'No'}</p>
     </CardContainer>
   );
 };
